@@ -1,18 +1,18 @@
 
 # LC3
 
-Basic Implementation of an LC-3 VM.
+Basic Implementation of an LC-3 VM. Is able to run LC-3 specified programs.
 
-Follows the general Instruction Set outlined by the provided LC-3 Documentation,
-and is able to run LC-3 specific programs.
+Follows the general Instruction Set outlined by the provided LC-3 Documentation.
 
 # Demo
 
 Two object files have been provided from an external source for testing.
 
-Simply drag them to the provided executable file, or run in the command line:
+Simply drag them to the provided executable file, 
+or run in the command line:
 ```
-./tmr-vm.exe 2048.obj
+./tmr-vm.exe ./demo/2048.obj
 ```
 
 # Compilation
